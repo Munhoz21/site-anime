@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-div{
+    display: flex;
+   justify-content: space-between;
+    width: 100%;
+   background-color: rgb(44, 44, 44);
+   padding: 10px;
+   color: rgb(255, 253, 227);
+}
+
+h3{
+   font-size: 28px;
+  color: aliceblue;
+}
+
+nav img{
+    height: 50px;
+  
+}
+
+.nav-div ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 40px;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 25px;
+  }
+
+  .main{
+    display: flex;
+    padding: 10px;
+  }
+
+  .content img{
+   height:370px;
+   width: 300px;
+  }
+
+  .content{
+    padding: 10px;
+  }
+
+  #jojo, #jujutsu{
+    margin: 0 60px;
+  }
+
+  #op{
+    margin-right: 45px;
+  }
+  .content a{
+    text-decoration: none;
+    margin-left: 100px;
+  }
+
+  #contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: center
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+
+}
+
+form button{
+    background-color:rgb(47, 22, 103) ;
+    color: aliceblue;
+    cursor: pointer;
+   
+}
+
+form input, form textarea, form button{
+    border-radius: 8px;
+    border: none;
+    background-color:rgb(122, 115, 137);
+   color: aliceblue;
+
+}
+
+form button:hover {
+    background-color: rgb(111, 111, 111);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(194, 212, 228);
+ }
+
+ input:focus, textarea:focus{
+    outline-color:rgb(100, 67, 173);
+ }
+
+
+ .main{
+  background-color: rgb(32, 32, 32);
+ }
+
+.content{
+  background-color: rgb(99, 99, 99);
+  margin-inline: 30px;
+  border-radius: 20px;
+  
+}
+
+.content a{
+  margin-right: 80px;
+  padding: 30px;
+  color: aliceblue;
+}
+
+.content img{
+  margin-left: 75px;
+  padding-bottom: 10px;
+  border-radius:20px;
+}
+
+#contact{
+  background-color: rgb(43, 43, 43);
+}
+
+
+
